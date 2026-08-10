@@ -1,0 +1,6 @@
+MVC : model view controler
+model berurusan dengan database
+komunikasi "http://localhost:8000
+
+Route tugasnya untuk komunikasi dengan url browser
+membuat kontroler dalam laravel menggunakan terminal
