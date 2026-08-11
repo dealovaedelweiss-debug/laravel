@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BelajarController;
+use App\Http\Controllers\PesertaController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -25,3 +26,7 @@ Route::get('hitung-kali', [BelajarController::class, 'indexkali']);
 Route::post('action-kali', [BelajarController::class, 'kali'])->name('action-kali
 ');
 Route::get('hitung-bagi', [BelajarController::class, 'bagi']);
+
+Route::get('peserta', [PesertaController::class, 'index']);
+Route::get('create', [PesertaController::class, 'create']);
+Route::post('store-peserta', [PesertaController::class, 'store']);
