@@ -18,9 +18,12 @@ class DatabaseSeeder extends Seeder
         // User::factory(10)->create();
         $this->call([
             PesertaSeeder::class,
+            RoleSeeder::class,
+            CategorySeeder::class,
 
         ]);
     }
 }
 // faker :palsu
 // seeder :
+dasjhfdh
